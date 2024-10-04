@@ -14,12 +14,20 @@
     <div class="header-content">
       <img src="logo.png" alt="Logo" class="logo" />
       <img src="logo-glow.png" alt="Nome da Logo" class="logo-name" />
-      <form action="search" class="search-form">
-        <input type="text" class="search-input" placeholder="Buscar..." />
-        <button class="search-button" type="submit">
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </button>
-      </form>
+      <div class="d">
+          <ul class="lista">
+            <li>
+              <a href="#Sabonete">
+                Nossos produtos
+              </a>
+            </li>  
+            <li>
+              <a href="https://www.instagram.com/seu_perfil" target="_blank">
+                <i class="fab fa-instagram"></i> 
+              </a>
+            </li>
+          </ul>
+      </div>
     </div>
   </header>
 
@@ -29,12 +37,6 @@
     <div class="intro-section">
       <p class="intro-text">
         Descubra a Revolução dos Cuidados com a Pele: Conheça o GLOW! <br><br>
-
-        Na GLOW, oferecemos uma rotina de cuidados com a pele que vai além do básico. Nossos produtos são feitos com ingredientes de alta qualidade, desenvolvidos por especialistas para atender a todas as necessidades da sua pele.<br><br>
-        
-        Seja para hidratar, proteger ou regenerar, cada produto é formulado para proporcionar resultados visíveis e sensoriais, transformando sua relação com a beleza.<br><br>
-        
-        Escolha GLOW: produtos livres de parabenos e sulfatos, cruelty-free, que cuidam de você e do meio ambiente.<br><br>
       </p>
     </div>
 
@@ -63,7 +65,7 @@
 
     <!-- Product Section -->
     <div class="product-section">
-      <h2 class="product-title">Sabonete Líquido Facial</h2>
+      <h2 class="product-title" id="Sabonete">Sabonete Líquido Facial</h2>
       <div class="product">
         <p class="product-description">
             Descrição: Sabonete líquido suave que limpa profundamente sem ressecar a pele, enriquecido com extratos de camomila e chá verde.
@@ -71,14 +73,19 @@
             Ação na Pele: Remove impurezas e excesso de oleosidade enquanto mantém o equilíbrio natural da pele. A camomila acalma irritações e o chá verde é antioxidante, ajudando a proteger a pele dos radicais livres e do envelhecimento precoce.
             
         </p>
-        <img class="product-image" src="sabonete.jpeg" alt="Hidratante Facial" />
+        <div class="coluna">
+          <img class="product-image" src="sabonete.jpeg" alt="Hidratante Facial" />
+          <a class="link" href="https://wa.me/5585985760679?text=Ol%C3%A1%2C%20eu%20gostaria%20de%20comprar%20o%20Sabonete%20L%C3%ADquido%20Facial.%0A%0AVoc%C3%AA%20poderia%20me%20confirmar%20se%20esse%20%C3%A9%20o%20produto%20correto%3F%0A%0AInformar%20os%20seguintes%20dados%20para%20finalizar%20a%20compra%3A%0A1.%20Nome%20completo%3A%20%0A2.%20Endere%C3%A7o%20(rua%2C%20n%C3%BAmero%2C%20bairro)%3A%20%0A3.%20Ponto%20de%20refer%C3%AAncia%3A%20%0A4.%20Cidade%3A%20%0A5.%20Quantidade%3A%20%0A6.%20Forma%20de%20pagamento%20(cart%C3%A3o%2C%20boleto%2C%20PIX)%3A">
+          <button class="buy-btn">Comprar</button></a>
+        </div>
+        
       </div>
     </div>
 
     <br /><br /><br />
 
     <div class="product-section">
-      <h2 class="product-title"> Sérum Facial </h2>
+      <h2 class="product-title" id="Sérum"> Sérum Facial </h2>
       <div class="product">
         <p class="product-description">
 
@@ -86,14 +93,18 @@
             
             Ação na Pele: O ácido hialurônico atua retendo a umidade da pele, promovendo hidratação profunda e preenchimento de linhas finas. A vitamina C ilumina a pele, combate manchas e estimula a produção de colágeno, resultando em uma pele mais firme e radiante.
         </p>
-        <img class="product-image" src="serum (2).jpeg" alt="Sérum" />
+        <div class="coluna">
+          <img class="product-image" src="serum (2).jpeg" alt="Sérum" />
+          <a class="link" href="https://wa.me/5585985760679?text=Ol%C3%A1%2C%20eu%20gostaria%20de%20comprar%20o%20S%C3%A9rum%20Facial.%0A%0AVoc%C3%AA%20poderia%20me%20confirmar%20se%20esse%20%C3%A9%20o%20produto%20correto%3F%0A%0AInformar%20os%20seguintes%20dados%20para%20finalizar%20a%20compra%3A%0A1.%20Nome%20completo%3A%20%0A2.%20Endere%C3%A7o%20(rua%2C%20n%C3%BAmero%2C%20bairro)%3A%20%0A3.%20Ponto%20de%20refer%C3%AAncia%3A%20%0A4.%20Cidade%3A%20%0A5.%20Quantidade%3A%20%0A6.%20Forma%20de%20pagamento%20(cart%C3%A3o%2C%20boleto%2C%20PIX)%3A">
+        <button class="buy-btn">Comprar</button></a>
+        </div>
       </div>
     </div>
 
     <br /><br /><br />
 
     <div class="product-section">
-      <h2 class="product-title"> Hidratante Facial Noturno</h2>
+      <h2 class="product-title" id="Hidratante Noturno"> Hidratante Facial Noturno</h2>
       <div class="product">
         <p class="product-description">
             Descrição: Hidratante rico em antioxidantes, ideal para regenerar a pele enquanto você dorme.
@@ -101,22 +112,32 @@
             Ação na Pele: Formulado com retinol e ácido hialurônico, este hidratante trabalha durante a noite para aumentar a renovação celular, suavizar linhas finas e hidratar profundamente. O retinol estimula a produção de colágeno, enquanto o ácido hialurônico garante uma pele mais firme e revigorada pela manhã.
             
         </p>
-        <img class="product-image" src="hidratante facial (2).jpeg" alt="Protetor Solar" />
-      </div>
 
+        <div class="coluna">
+        <img class="product-image" src="hidratante facial (2).jpeg" alt="Protetor Solar" />
+          <a class="link" href="https://wa.me/5585985760679?text=Ol%C3%A1%2C%20eu%20gostaria%20de%20comprar%20o%20Hidratante%20Facial%20Noturno.%0A%0AVoc%C3%AA%20poderia%20me%20confirmar%20se%20esse%20%C3%A9%20o%20produto%20correto%3F%0A%0AInformar%20os%20seguintes%20dados%20para%20finalizar%20a%20compra%3A%0A1.%20Nome%20completo%3A%20%0A2.%20Endere%C3%A7o%20(rua%2C%20n%C3%BAmero%2C%20bairro)%3A%20%0A3.%20Ponto%20de%20refer%C3%AAncia%3A%20%0A4.%20Cidade%3A%20%0A5.%20Quantidade%3A%20%0A6.%20Forma%20de%20pagamento%20(cart%C3%A3o%2C%20boleto%2C%20PIX)%3A">
+         <button class="buy-btn">Comprar</button></a>
+        </div>
+        
+      </div>
     </div>
 
     <br /><br /><br />
 
     <div class="product-section">
-      <h2 class="product-title"> Hidratante Facial Diurno</h2>
+      <h2 class="product-title" id="Diario"> Hidratante Facial Diurno</h2>
       <div class="product">
         <p class="product-description">
 Descrição: Hidratante leve de uso diário com proteção antioxidante, perfeito para ser usado sob a maquiagem.
 <br><br>
 Ação na Pele: Contém vitamina E e niacinamida, que ajudam a hidratar e proteger a pele contra os danos ambientais. A fórmula não oleosa cria uma barreira protetora, mantendo a pele hidratada e suave ao longo do dia, enquanto a niacinamida ajuda a minimizar os poros e melhorar o tom da pele.       
         </p>
+        <div class="coluna">
         <img class="product-image" src="hi facial.jpeg" alt="Protetor Solar" />
+          <a class="link" href="https://wa.me/5585985760679?text=Ol%C3%A1%2C%20eu%20gostaria%20de%20comprar%20o%20Hidratante%20Facial%20Diurno.%0A%0AVoc%C3%AA%20poderia%20me%20confirmar%20se%20esse%20%C3%A9%20o%20produto%20correto%3F%0A%0AInformar%20os%20seguintes%20dados%20para%20finalizar%20a%20compra%3A%0A1.%20Nome%20completo%3A%20%0A2.%20Endere%C3%A7o%20(rua%2C%20n%C3%BAmero%2C%20bairro)%3A%20%0A3.%20Ponto%20de%20refer%C3%AAncia%3A%20%0A4.%20Cidade%3A%20%0A5.%20Quantidade%3A%20%0A6.%20Forma%20de%20pagamento%20(cart%C3%A3o%2C%20boleto%2C%20PIX)%3A">
+       <button class="buy-btn">Comprar</button></a>
+        </div>
+        
       </div>
 
     </div>
@@ -124,14 +145,19 @@ Ação na Pele: Contém vitamina E e niacinamida, que ajudam a hidratar e proteg
     <br /><br /><br />
 
     <div class="product-section">
-      <h2 class="product-title"> Esfoliante Facial</h2>
+      <h2 class="product-title" id="Esfoliante"> Esfoliante Facial</h2>
       <div class="product">
         <p class="product-description">
             Descrição: Esfoliante facial suave com microesferas biodegradáveis que promovem uma renovação celular eficaz.
             <br><br>
             Ação na Pele: Remove células mortas, desobstrui poros e melhora a textura da pele, deixando-a mais lisa e preparada para a absorção de outros produtos. Os extratos de aveia e aloe vera presentes na fórmula acalmam e hidratam, garantindo uma esfoliação eficaz sem agredir a pele.     
         </p>
+        <div class="coluna">
         <img class="product-image" src="esfoleante.jpeg" alt="Protetor Solar" />
+          <a class="link" href="https://wa.me/55859857606?text=Ol%C3%A1%2C%20eu%20gostaria%20de%20comprar%20o%20Esfoliante%20Facial.%0A%0AVoc%C3%AA%20poderia%20me%20confirmar%20se%20esse%20%C3%A9%20o%20produto%20correto%3F%0A%0AInformar%20os%20seguintes%20dados%20para%20finalizar%20a%20compra%3A%0A1.%20Nome%20completo%3A%20%0A2.%20Endere%C3%A7o%20(rua%2C%20n%C3%BAmero%2C%20bairro)%3A%20%0A3.%20Ponto%20de%20refer%C3%AAncia%3A%20%0A4.%20Cidade%3A%20%0A5.%20Quantidade%3A%20%0A6.%20Forma%20de%20pagamento%20(cart%C3%A3o%2C%20boleto%2C%20PIX)%3A">
+         <button class="buy-btn">Comprar</button></a>
+        </div>
+        
       </div>
 
     </div>
@@ -139,14 +165,19 @@ Ação na Pele: Contém vitamina E e niacinamida, que ajudam a hidratar e proteg
     <br /><br /><br />
 
     <div class="product-section">
-      <h2 class="product-title"> Hidratante Labial</h2>
+      <h2 class="product-title" id="Hidratante"> Hidratante Labial</h2>
       <div class="product">
         <p class="product-description">
             Descrição: Hidratante labial nutritivo, com manteiga de karité e óleo de coco, para lábios macios e protegidos.
             <br><br>
             Ação na Pele: A manteiga de karité nutre profundamente os lábios, enquanto o óleo de coco forma uma barreira protetora contra o ressecamento. Proporciona lábios mais suaves e hidratados, especialmente durante o inverno ou em climas secos..
         </p>
+        <div class="coluna">
         <img class="product-image" src="hidratante labial.jpeg" alt="Protetor Solar" />
+          <a class="link" href="https://wa.me/5585985760679?text=Ol%C3%A1%2C%20eu%20gostaria%20de%20comprar%20o%20Hidratante%20Labial.%0A%0AVoc%C3%AA%20poderia%20me%20confirmar%20se%20esse%20%C3%A9%20o%20produto%20correto%3F%0A%0AInformar%20os%20seguintes%20dados%20para%20finalizar%20a%20compra%3A%0A1.%20Nome%20completo%3A%20%0A2.%20Endere%C3%A7o%20(rua%2C%20n%C3%BAmero%2C%20bairro)%3A%20%0A3.%20Ponto%20de%20refer%C3%AAncia%3A%20%0A4.%20Cidade%3A%20%0A5.%20Quantidade%3A%20%0A6.%20Forma%20de%20pagamento%20(cart%C3%A3o%2C%20boleto%2C%20PIX)%3A">
+           <button class="buy-btn">Comprar</button></a>
+        </div>
+        
       </div>
 
     </div>
@@ -154,16 +185,19 @@ Ação na Pele: Contém vitamina E e niacinamida, que ajudam a hidratar e proteg
     <br /><br /><br />
 
     <div class="product-section">
-      <h2 class="product-title"> Protetor Solar Facial</h2>
+      <h2 class="product-title" id="Protetor"> Protetor Solar Facial</h2>
       <div class="product">
         <p class="product-description">
             Descrição: Protetor solar facial com FPS 50, de textura leve e rápida absorção, adequado para todos os tipos de pele.
                         <br><br>
             Ação na Pele: Oferece alta proteção contra os raios UVA e UVB, prevenindo o envelhecimento precoce e manchas causadas pelo sol. Além disso, é enriquecido com antioxidantes que ajudam a combater os danos causados pelos radicais livres, mantendo a pele hidratada e protegida ao longo do dia            
         </p>
-        <img class="product-image" src="protetor.jpeg" alt="Protetor Solar" />
+        <div class="coluna">
+          <img class="product-image" src="protetor.jpeg" alt="Protetor Solar" />
+            <a class="link" href="https://wa.me/5585985760679?text=Ol%C3%A1%2C%20eu%20gostaria%20de%20comprar%20o%20Protetor%20Solar%20Facial.%0A%0AVoc%C3%AA%20poderia%20me%20confirmar%20se%20esse%20%C3%A9%20o%20produto%20correto%3F%0A%0AInformar%20os%20seguintes%20dados%20para%20finalizar%20a%20compra%3A%0A1.%20Nome%20completo%3A%20%0A2.%20Endere%C3%A7o%20(rua%2C%20n%C3%BAmero%2C%20bairro)%3A%20%0A3.%20Ponto%20de%20refer%C3%AAncia%3A%20%0A4.%20Cidade%3A%20%0A5.%20Quantidade%3A%20%0A6.%20Forma%20de%20pagamento%20(cart%C3%A3o%2C%20boleto%2C%20PIX)%3A">
+              <button class="buy-btn">Comprar</button></a>
+          </div>
       </div>
-
     </div>
 
     <br /><br /><br />
@@ -173,8 +207,20 @@ Ação na Pele: Contém vitamina E e niacinamida, que ajudam a hidratar e proteg
   <!-- Footer -->
   <footer class="footer">
     <div class="footer-content">
-      <p>&copy; 2024 GLOW. Todos os direitos reservados.</p>
+      <p>&copy; 2024 GLOW. Todos os direitos reservados.</p>   
     </div>
+    <ul class="ulf">
+      <li>
+        <a href="https://www.instagram.com/seu_perfil" target="_blank">
+          <i class="fab fa-instagram"></i> Instagram
+        </a>
+      </li>
+      <li>
+        <a href="https://wa.me/5511999999999" target="_blank">
+          <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+      </li>
+    </ul>   
   </footer>
 
   <!-- Adicione o script do slider -->
